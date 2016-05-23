@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PPDB Banjarmasin</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="author" content="PPDB-BANJARMASIN">
+<meta name="description" content="PPDB-BANJARMASIN">
+<meta name="url" content="PPDB-BANJARMASIN">
+<meta name="keywords" content="PPDB-BANJARMASIN">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link type="text/css" rel="stylesheet" href="mmenu/demo/css/demo.css" />
+<link type="text/css" rel="stylesheet" href="mmenu/dist/css/jquery.mmenu.all.css" />
+
+
+<script src="js/jquery.1.11.1.js"></script>
+
+
+<script type="text/javascript" src="mmenu/dist/js/jquery.mmenu.all.min.js"></script>
+
+
+<script>
+$(document).ready(function () {
+
+
+$(document).ajaxStart(function() 
+	{
+	$('#loading').show();
+	}).ajaxStop(function() 
+	{
+	$('#loading').hide();
+	});
+
+
+
+
+
+
+$("#daftarnya1").load("http://ppdb-banjarmasin.com/2016/android/i_hasil_seleksi.php");
+
+
+
+});
+
+</script>
+
+
+
+
+<style>
+  
+  #foo_footer {
+    position: fixed;
+    bottom: 0;
+  }
+</style>
+
+
+
+
+
+<script type="text/javascript">
+$(function() {
+$('nav#menu').mmenu({
+extensions	: [ 'effect-slide-menu', 'pageshadow' ],
+searchfield	: false,
+counters	: true,
+navbar 		: {
+title		: 'PPDB-Banjarmasin'
+},
+navbars		: [
+{
+position	: 'top',
+content		: [
+'prev',
+'title',
+'close'
+]
+}, {
+position	: 'bottom',
+content		: [
+'PPDB-Banjarmasin'
+]
+}
+]
+});
+});
+</script>
+
+
+
+
+</head>
+
+<body bgcolor="#b3dba8" text="#000000" leftmargin="0" topmargin="0" onLoad="{diload}">
+	
+
+
+
+<div id="foo_footer">
+<div id="loading" style="display:none">
+<img src="img/progress-bar.gif" height="20">
+</div>
+
+</div>
+
+
+
+
+
+
+<div id="page">
+
+<div class="header">
+<a href="#menu"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td width="16">
+<img src="img/logo2.png" width="16">
+</td>
+
+<td>
+PPDB-Banjarmasin
+</td>
+<td width="16">
+<img src="img/logo.png" width="24">
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+
+<div class="content">
+
+<h3>
+Hasil Seleksi
+</h3>
+
+
+<div id="daftarnya1"></div>
+
+
+
+</div>
+
+
+<nav id="menu">
+<ul>
+<li><a href="index.html">BERANDA</a></li>
+<li><a href="reg.html">DAFTAR SEKARANG</a></li>
+<li><a href="login.html">LOGIN CALON</a></li>
+<li><a href="jurnal_rangking.html">JURNAL RANGKING</a></li>
+<li><a href="hasil_seleksi.html">HASIL SELEKSI</a></li>
+<li><a href="petunjuk.html">PETUNJUK</a></li>
+<li><a href="bantuan.html">BANTUAN</a></li>
+</ul>
+</nav>
+</div>
+
+
+
+
+</body>
+</html>
