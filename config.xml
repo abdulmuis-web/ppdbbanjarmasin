@@ -9,14 +9,6 @@
     </author>
     <content src="index.html" />
 
-<icon src="icon.png" />
-<icon src="icon.png" gap:platform="android" gap:density="ldpi" />
-<icon src="icon.png" gap:platform="android" gap:density="mdpi" />
-<icon src="icon.png" gap:platform="android" gap:density="hdpi" />
-<icon src="icon.png" gap:platform="android" gap:density="xhdpi" />
-<icon src="icon.png" gap:platform="android" gap:density="xxhdpi" />
-
-
 
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
@@ -29,13 +21,11 @@
     <platform name="android">
         <allow-intent href="market:*" />
 
-	<icon src="icon.png" />
-	<icon src="icon.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="icon.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="icon.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="icon.png" gap:platform="android" gap:density="xhdpi" />
-	<icon src="icon.png" gap:platform="android" gap:density="xxhdpi" />
-	
+    <icon src="res/android/ldpi.png" density="ldpi" />
+    <icon src="res/android/mdpi.png" density="mdpi" />
+    <icon src="res/android/hdpi.png" density="hdpi" />
+    <icon src="res/android/xhdpi.png" density="xhdpi" />
+
 
     </platform>
     <platform name="ios">
